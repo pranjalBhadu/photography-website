@@ -1,0 +1,93 @@
+<html>
+
+<head>
+    <title>PhotoVerse</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway:400,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- NAVIGATION MENU -->
+    <nav>
+        <div class="logo"><img src="img/logo.png"></div>
+        <div class="menu">
+            <div class="full-menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+                </div>
+            <div class="mobile-nav" onclick="openNav()">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+            <div class="mobile-menu" >
+                <a href="javascript:void(0)" class="close-btn" onclick="closeNav()">&times;</a>
+                <a href="#">Home</a>
+                <a href="#">Projects</a>
+                <a href="#">Contact</a>
+                <a href="#">About</a>
+            </div>
+        </div>
+
+    </nav>
+
+    <!-- HEADER -->
+    <div class="header">
+        <div class="heading">
+            <h1><span class="orange">P</span>HOTO</h1>
+            <h1>VERSE</h1>
+        </div>
+    </div>
+
+    <!-- PROJECTS -->
+
+    <div class="projects">
+
+        <h2>PROJECTS</h2>
+        <div class="project-container">
+            <div class="project-gallery">
+                <img src="img/1.jpg">
+                <img src="img/2.jpg">
+                <img src="img/3.jpg">
+                <img src="img/4.jpg">
+            </div>
+            <div class="active-project">
+                <img src="img/1.jpg">
+            </div>
+        </div>
+    </div>
+
+    <!-- CONTACT FORM -->
+    <div class="contact-form">
+        <h2>Contact</h2>
+        <div class="inputs">
+            <input type="text" class="name" placeholder="Full Name">
+            <input class="email" type="email" placeholder="Email">
+            <textarea class="message" placeholder="Leave a message"></textarea>
+            <button class="send-btn">Send</button>
+        </div>
+    </div>
+
+    <div class="about">
+        <h2>ABOUT ME</h2>
+        <div class="information">
+            <img src="img/2.jpg">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, iure eveniet! Reprehenderit corporis, deleniti, dolorem, reiciendis beatae doloribus debitis laudantium omnis ducimus vero quisquam quas perferendis doloremque eius. Dicta reprehenderit cumque voluptatum tempora fugit aperiam molestiae soluta recusandae? Dolor ex ipsam aliquam incidunt. Voluptate labore blanditiis repellat, commodi tenetur aspernatur asperiores rem? Blanditiis laudantium ipsa cum architecto maiores! Quae consequatur nostrum adipisci quis optio illo saepe a, expedita nobis aspernatur?</p>
+        </div>
+    </div>
+    <!-- FOOTER -->
+    <footer>
+        <p>Website developed by Pranjal Bhadu &copy; 2020</p>
+    </footer>
+</body>
+<script src="javascrpit.js"></script>
+
+</html>

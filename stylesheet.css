@@ -1,0 +1,226 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+}
+
+nav{
+    height: 65px;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 100;
+}
+
+.logo{
+    height: 65px;
+    width: 136px;
+    position: absolute;
+}
+
+.logo img{
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    left: 32px;
+}
+
+.menu{
+    position: absolute;
+    right: 32px;
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.menu li{
+    float: left;
+    margin: 28px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu a:hover{
+    color:black;
+}
+
+.mobile-menu{
+    display: none;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: orange;
+    overflow-x: hidden;
+    padding-top:60px;
+    transition: 0.5s;
+}
+
+.mobile-menu a{
+    padding: 35px 8px 8px 100px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+}
+
+.mobile-menu a:hover{
+    color: white;
+}
+
+.mobile-menu .close-btn{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.header{
+    background: url(img/banner.jpg);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.heading{
+    position: absolute;
+    top: 40%;
+    left: 32px;
+    letter-spacing: 3px;
+    font-size: 220%;
+    color: white;
+}
+
+.orange{
+    color: orange;
+}
+
+h2{
+    margin-top: 50px;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 8px;
+    width: 350px;
+    border-bottom: solid black 2px;
+}
+
+.project-container{
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 100px;
+}
+
+.project-gallery{
+    flex: 1;
+}
+
+.project-gallery img{
+    width: 45%;
+}
+
+.active-project{
+    flex: 1;
+}
+
+.active-project img{
+    width: 100%;
+}
+
+.contact-form{
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: #464646;
+    padding-bottom: 28px;
+}
+
+.contact-form h2{
+    padding-top: 50px;
+    color: white;
+    border-bottom-color: white;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input,.contact-form textarea,.send-btn{
+    width: 80%;
+    font-family: "montserrat",sans-serif;
+    font-size: 14px;
+    padding: 12px 24px;
+    font-weight: normal;
+    border: 0;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    
+}
+
+.contact-form textarea{
+    height: 150px;
+}
+
+.send-btn{
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 2px;
+    box-shadow: 0px 10px white;
+}
+
+.send-btn:active{
+        box-shadow: none;
+        position: relative;
+        top: 4px;
+}
+
+.about{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 45px;
+}
+
+.information{
+    display: flex;
+    margin-top: 65px;
+    align-items: center;
+}
+
+.information img{
+    width: 30%;
+    height: 100%;
+}
+
+.information p{
+    text-align: justify;
+    padding: 25px;
+    line-height: 30px;
+}
+
+footer{
+    background-color: black;
+    color: orange;
+    text-align: center;
+    padding: 36px;
+}
